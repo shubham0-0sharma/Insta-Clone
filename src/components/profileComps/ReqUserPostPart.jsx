@@ -2,6 +2,7 @@ import { useState } from "react";
 import { AiOutlineTable, AiOutlineUser } from "react-icons/ai";
 import { CgBookmark } from "react-icons/cg";
 import { RiVideoAddLine } from "react-icons/ri";
+import ReqUserPostCard from "./ReqUserPostCard";
 
 function ReqUserPostPart() {
     const tabs = [
@@ -26,7 +27,7 @@ function ReqUserPostPart() {
             activeTab: "",
         },
     ];
-    const [activeTab, setActiveTab] = useState("POST");
+    const [activeTab, setActiveTab] = useState("POSTS");
     return (
         <div>
             <div className="flex mt-20  space-x-14  border-t relative justify-center">
@@ -44,6 +45,13 @@ function ReqUserPostPart() {
                     </div>
                 ))}
             </div>
+            
+                <div className="flex flex-wrap">
+                    {[1, 1, 1, 1, 1, 1].map((item) => (
+                        <ReqUserPostCard />
+                    ))}
+                </div>
+            
         </div>
     );
 }

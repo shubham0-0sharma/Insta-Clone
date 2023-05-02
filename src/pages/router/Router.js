@@ -8,7 +8,7 @@ function Router() {
     return (
         <div>
             <div className="flex">
-                <div className="w-[16%] border border-l-slate-500 ">
+                <div className="w-[20%] border border-l-slate-500 ">
                     <Sidebar />
                 </div>
                 <div className="space-x-20 w-full">

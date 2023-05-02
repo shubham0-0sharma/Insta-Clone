@@ -1,0 +1,15 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    position: absolute; 
+
+    z-index: 1;
+}
+.comment-input{
+    border: None;
+    outline: none;
+    width: 100%;
+}

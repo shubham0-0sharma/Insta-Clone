@@ -1,6 +1,7 @@
 import React from "react";
 import ProfileUserDetails from "../../components/profileComps/ProfileUserDetails";
 import ReqUserPostPart from "../../components/profileComps/ReqUserPostPart";
+import ReqUserPostCard from "../../components/profileComps/ReqUserPostCard";
 
 function Profile() {
     return (
@@ -10,6 +11,7 @@ function Profile() {
                 
             </div>
             <div><ReqUserPostPart/></div>
+            
         </div>
     );
 }
